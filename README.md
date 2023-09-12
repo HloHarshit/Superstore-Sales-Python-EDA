@@ -9,12 +9,16 @@ The dataset used for this analysis can be found [here](https://github.com/HloHar
 - **Order ID**: Unique identifier for each order.
 - **Order Date**: Date when the order was placed.
 - **Ship Date**: Date when the order was shipped.
-- **Ship Mode**: Shipping mode used for the order (e.g., Standard Class, Express).
+- **Ship Mode**: Shipping mode used for the order (e.g., Standard Class, First Class).
 - **Customer ID**: Unique identifier for each customer.
 - **Customer Name**: Name of the customer.
-- **Segment**: Customer segment (e.g., Consumer, Corporate).
+- **Segment**: Product segment (e.g., Consumer, Corporate).
 - **City**: City where the order was placed.
 - **State**: State where the order was placed.
+- **Country**: Country where the order was placed.
+- **Postal Code**: Postal Code.
+- **Market**: Market.
+- **Region**: Region.
 - **Product ID**: Unique identifier for each product.
 - **Category**: Category of the product.
 - **Sub-Category**: Sub-category of the product.
@@ -24,7 +28,7 @@ The dataset used for this analysis can be found [here](https://github.com/HloHar
 - **Discount**: Discount applied to the transaction.
 - **Profit**: Profit amount for the transaction.
 - **Shipping Cost**: Cost of shipping.
-- **Order Priority**: Priority of the order.
+- **Order Priority**: Priority of the order (e.g., Medium, High).
 
 ## EDA File
 
